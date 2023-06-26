@@ -10,7 +10,7 @@ namespace Collection_PracticeProblems
     {
         public void SellingPrice()
         {
-            //Console.WriteLine("Enter N value and K value Separated with Space");
+            Console.WriteLine("Enter N value and K value Separated with Space");
             string[] nk = Console.ReadLine().Split(" ");
             int n = int.Parse(nk[0]);
             int k = int.Parse(nk[1]);
